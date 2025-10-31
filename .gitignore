@@ -1,0 +1,14 @@
+# Ignore everything
+/*
+
+# Except files i actually want
+!.git/
+!.gitignore
+!omarchy/
+!waybar/
+!bashrc
+!neofetch/
+!nvim/
+!hypr/
+!gazelle/
+!btop/

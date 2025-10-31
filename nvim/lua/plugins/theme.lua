@@ -1,0 +1,1 @@
+/home/ggioalema/.config/omarchy/current/theme/neovim.lua
