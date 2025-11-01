@@ -8,6 +8,7 @@
   "modules-center": ["clock", "custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "group/tray-expander",
+    "mpris",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -140,5 +141,27 @@
   "tray": {
     "icon-size": 12,
     "spacing": 17
-  }
+  },
+  "mpris": {
+  "format": "{player_icon}", 
+  "format-paused": "{status_icon}", 
+  "player-icons": {
+    "default": "🎵",
+    "mpv": "󰕼",
+    "spotify": "",
+    "firefox": "󰈹",
+    "chromium": "󰊯",
+    "google-chrome-stable": "󰊯",
+    "vlc": "󰕼"
+  },
+  "status-icons": {
+    "playing": "▶",
+    "paused": "⏸",
+    "stopped": "⏹"
+  },
+  //"max-length": 40,
+  //"scrolling": true,
+  //"scrolling-speed": 0.1,
+  //"scrolling-delay": 1
+  } 
 }
