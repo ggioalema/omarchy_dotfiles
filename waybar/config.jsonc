@@ -86,7 +86,7 @@
     "format-plugged": "",
 
     "format-warning": "{capacity}% 󰂎",
-    "format-critical": "{capacity}% ⚠️, 
+    "format-critical": "{capacity}% ⚠️", 
 
     "format-icons": {
       "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
@@ -151,7 +151,7 @@
     "spotify": "",
     "firefox": "󰈹",
     "chrome": "󰊯",
-    "youtube": ""
+    "youtube": "",
     "vlc": "󰕼"
   },
   "status-icons": {

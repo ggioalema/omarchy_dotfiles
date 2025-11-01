@@ -34,7 +34,7 @@ alias ifconfig='ip a'
 
 . "$HOME/.local/share/../bin/env"
 
-#Add custom Include alla path di python
+#Add custom Include to python path 
 export PYTHONPATH=~/Include/Python:$PYTHONPATH
 
 # add my personal commands
