@@ -81,12 +81,12 @@
   },
   "battery": {
     "format": "{capacity}% {icon}",
-    "format-discharging": "{icon}",
-    "format-charging": "{icon}",
+    "format-discharging": "{capacity}% {icon}",
+    "format-charging": "{capacity}% {icon}",
     "format-plugged": "",
 
-    //"format-warning": "{capacity}% ⚠️",
-    //"format-critical": "{capacity}% ", 
+    "format-warning": "{capacity}% 󰂎",
+    "format-critical": "{capacity}% ⚠️, 
 
     "format-icons": {
       "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
