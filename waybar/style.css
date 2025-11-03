@@ -85,3 +85,17 @@ tooltip {
   min-width: 12px;
   margin-right: 16px;
 }
+
+#battery.warning {
+  color: #e6c229; /* giallo */
+}
+
+#battery.critical {
+  color: #e63946; /* rosso lampeggiante */
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { color: transparent; }
+}
+
