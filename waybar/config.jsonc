@@ -77,7 +77,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "$TERMINAL --class=Gazelle -e gazelle"
+    "on-click": "exec setsid uwsm-app -- xdg-terminal-exec --app-id=com.omarchy.Omarchy --title=Gazelle -e bash -c gazelle"
   },
   "battery": {
     "format": "{capacity}% {icon}",
@@ -154,7 +154,7 @@
     "firefox": "󰈹",
     "chrome": "󰊯",
     "youtube": "",
-    "vlc": "󰕼"
+    "vlc": "󰕼",
     "opera": "🅾️"
   },
   "status-icons": {
