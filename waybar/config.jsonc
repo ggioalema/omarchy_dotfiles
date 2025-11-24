@@ -78,7 +78,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "exec setsid uwsm-app -- xdg-terminal-exec --app-id=com.omarchy.Omarchy --title=Gazelle -e bash -c gazelle"
+     "on-click": "xdg-terminal-exec --app-id=Gazelle -e gazelle"
   },
   "battery": {
     "format": "{capacity}% {icon}",

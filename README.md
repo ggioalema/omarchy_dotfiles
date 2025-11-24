@@ -20,7 +20,7 @@ It includes changes for:
 
 - I work on a laptop, so i needed to configure `input.conf` to make my touchpad confortable
 - Changed keybinds for various apps
-- Changed mail (gmail), browser (Opera) and other 
+- Changed mail (gmail), browser (Chrome) and other 
 - Modified some keybindings in order to be able to move from different windows with vim keys (hjkl) instead of arrowkeys.
 - Added the ability to resize focused window with arrowkeys or vim keys
 - Some basic configuration on lookandfeel, autostart etc... 
