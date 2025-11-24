@@ -25,14 +25,11 @@ alias py='python'
 alias g=''
 alias d=''
 alias r=''
-alias gcm=''
 alias gcam=''
 alias gcad=''
 
 alias tailscaleup='sudo systemctl start tailscaled'
 alias ifconfig='ip a'
-
-. "$HOME/.local/share/../bin/env"
 
 #Add custom Include to python path 
 export PYTHONPATH=~/Include/Python:$PYTHONPATH
