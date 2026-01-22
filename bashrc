@@ -16,10 +16,10 @@
 # Add your own exports, aliases, and functions here.
 #
 # Make an alias for invoking commands you use constantly
-# alias p='python'
 alias ll='lsa'
 alias l='ls'
 alias py='python'
+alias lg='lazygit'
 
 # remove useless git, docker and rails aliases(useless for me) 
 alias g=''
