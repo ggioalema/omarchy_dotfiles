@@ -29,10 +29,11 @@ alias gcam=''
 alias gcad=''
 
 alias tailscaleup='sudo systemctl start tailscaled'
-alias ifconfig='ip a'
 
 #Add custom Include to python path 
 export PYTHONPATH=~/Include/Python:$PYTHONPATH
 
 # add my personal commands
 export PATH=$PATH:~/ComandiUser/
+# add network custom commands
+export PATH=$PATH:~/Network/
