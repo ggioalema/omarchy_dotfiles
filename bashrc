@@ -29,6 +29,7 @@ alias gcam=''
 alias gcad=''
 
 alias tailscaleup='sudo systemctl start tailscaled'
+alias clr='clear'
 
 #Add custom Include to python path 
 export PYTHONPATH=~/Include/Python:$PYTHONPATH
